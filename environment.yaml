@@ -1,0 +1,17 @@
+name: proxy-wars
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - fastapi
+    - uvicorn[standard]
+    - httpx
+    - pydantic
+    - pytest
+    - pytest-asyncio
+    - requests
+    - matplotlib
+    - numpy

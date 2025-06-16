@@ -1,0 +1,50 @@
+Proxy Strategy Latency Analysis Summary
+==================================================
+Generated: 2025-06-14 16:47:55
+Test Duration: 30 seconds per strategy
+
+
+SJF Strategy:
+--------------------
+Total requests: 106
+Customer A requests: 73
+Customer B requests: 33
+Overall mean latency: 137.56 ms
+Overall median latency: 18.20 ms
+Overall std deviation: 151.15 ms
+Overall min latency: 4.15 ms
+Overall max latency: 332.83 ms
+Customer A mean: 81.56 ms
+Customer A median: 12.15 ms
+Customer B mean: 261.44 ms
+Customer B median: 324.08 ms
+
+FAIR Strategy:
+--------------------
+Total requests: 100
+Customer A requests: 67
+Customer B requests: 33
+Overall mean latency: 169.01 ms
+Overall median latency: 165.53 ms
+Overall std deviation: 155.42 ms
+Overall min latency: 4.63 ms
+Overall max latency: 349.06 ms
+Customer A mean: 123.38 ms
+Customer A median: 14.28 ms
+Customer B mean: 261.66 ms
+Customer B median: 322.82 ms
+
+FCFS Strategy:
+--------------------
+Total requests: 96
+Customer A requests: 64
+Customer B requests: 32
+Overall mean latency: 183.51 ms
+Overall median latency: 77.07 ms
+Overall std deviation: 131.10 ms
+Overall min latency: 23.65 ms
+Overall max latency: 380.16 ms
+Customer A mean: 137.56 ms
+Customer A median: 66.12 ms
+Customer B mean: 275.42 ms
+Customer B median: 326.28 ms
